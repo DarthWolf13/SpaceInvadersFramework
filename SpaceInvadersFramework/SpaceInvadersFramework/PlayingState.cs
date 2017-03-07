@@ -5,7 +5,15 @@ using System.Text;
 
 namespace SpaceInvadersFramework
 {
-    class PlayingState
+    class PlayingState : GameObjectList
     {
+        private SpriteGameObject background;
+
+        public PlayingState()
+        {
+            background = new SpriteGameObject("background");
+
+            this.Add(background);
+        }
     }
 }

@@ -1,0 +1,1 @@
+c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFrameworkContent\obj\x86\Debug\SpaceInvadersFrameworkContent.contentprojResolveAssemblyReference.cache
