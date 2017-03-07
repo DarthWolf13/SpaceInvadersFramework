@@ -7,13 +7,15 @@ namespace SpaceInvadersFramework
 {
     class PlayingState : GameObjectList
     {
-        private SpriteGameObject background;
+        private SpriteGameObject player;
 
         public PlayingState()
         {
-            background = new SpriteGameObject("background");
+            player = new SpriteGameObject("ship");
 
-            this.Add(background);
+            this.Add(new SpriteGameObject("background"));
+            this.Add(player);
+
         }
     }
 }

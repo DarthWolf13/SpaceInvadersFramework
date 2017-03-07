@@ -7,13 +7,9 @@ namespace SpaceInvadersFramework
 {
     class Player : SpriteGameObject
     {
-        SpriteSheet ship;
-
-        public Player(string shipAssetName):base("")
+        public Player(): base("ship")
         {
-            ship = new SpriteSheet(shipAssetName);
 
-            
         }
     }
 }
