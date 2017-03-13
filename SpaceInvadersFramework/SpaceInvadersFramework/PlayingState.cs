@@ -18,12 +18,25 @@ namespace SpaceInvadersFramework
 
             invaders = new GameObjectList();
             invaders.Position = new Vector2(0, 0);
-            Invader redInvader = new Invader("red_invader");
-            invaders.Add(redInvader);
 
             this.Add(new SpriteGameObject("background"));
             this.Add(player);
             this.Add(invaders);
+
+            for (int i = 0; i < 9; i++)
+            {
+                this.invaders.Add(new Invader(i * 98, 0, "blue_invader"));
+                this.invaders.Add(new Invader(i * 98, 64, "yellow_invader"));
+                this.invaders.Add(new Invader(i * 98, 128, "red_invader"));
+            }
         }
+
+        public override void Update(GameTime gameTime)
+        {
+            base.Update(gameTime);
+
+            
+        }
+
     }
 }

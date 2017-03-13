@@ -10,9 +10,10 @@ namespace SpaceInvadersFramework
     {
         private int speed = 300;
 
-        public Invader(string assetname, int layer = 0, string id = "", int sheetIndex = 0) : base(assetname, layer, id, sheetIndex)
+        public Invader(int x, int y, string assetname, int layer = 0, string id = "", int sheetIndex = 0) : base(assetname, layer, id, sheetIndex)
         {
             this.Velocity = new Vector2(speed, 0);
+            this.Position = new Vector2(x, y);
         }
 
         public override void Update(GameTime gameTime)
