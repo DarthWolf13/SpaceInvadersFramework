@@ -10,18 +10,36 @@ namespace SpaceInvadersFramework
     class PlayingState : GameObjectList
     {
         private GameObjectList invaders;
+        private GameObjectList bullet;
+        Player player;
+
+        internal Player Player
+        {
+            get
+            {
+                return player;
+            }
+
+            set
+            {
+                player = value;
+            }
+        }
 
         public PlayingState()
         {
-            Player player = new Player();
+            player = new Player();
             player.Position = new Vector2(380, 580);
 
             invaders = new GameObjectList();
             invaders.Position = new Vector2(0, 0);
 
-            this.Add(new SpriteGameObject("background"));
-            this.Add(player);
+            bullet = new GameObjectList();
+
+            this.Add(new SpriteGameObject("background"));           
             this.Add(invaders);
+            this.Add(bullet);
+            this.Add(player);
 
             for (int i = 0; i < 9; i++)
             {
@@ -30,13 +48,12 @@ namespace SpaceInvadersFramework
                 this.invaders.Add(new Invader(i * 98, 128, "red_invader"));
             }
         }
-
-        public override void Update(GameTime gameTime)
+            public override void HandleInput(InputHelper inputHelper)
         {
-            base.Update(gameTime);
+            base.HandleInput(inputHelper);
 
-            
+            if (inputHelper.KeyPressed(Keys.Space))
+                this.bullet.Add(new Bullet(player.Position.X, player.Position.Y));
         }
-
     }
 }

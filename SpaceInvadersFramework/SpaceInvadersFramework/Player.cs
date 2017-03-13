@@ -21,9 +21,8 @@ namespace SpaceInvadersFramework
             base.HandleInput(inputHelper);
 
             if (inputHelper.IsKeyDown(Keys.Left) || this.position.X + this.sprite.Width > 800)
-                this.Velocity = new Vector2(-speed, 0);
-            else this.Velocity = Vector2.Zero;
-            if (inputHelper.IsKeyDown(Keys.Right) || this.position.X < 0)
+                this.Velocity = new Vector2(-speed, 0);            
+            else if (inputHelper.IsKeyDown(Keys.Right) || this.position.X < 0)
                 this.Velocity = new Vector2(speed, 0);
             else this.Velocity = Vector2.Zero;
 
