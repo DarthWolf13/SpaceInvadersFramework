@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +13,8 @@ namespace SpaceInvadersFramework
 
         public PlayingState()
         {
-            player = new SpriteGameObject("ship");
+            Player player = new Player();
+            player.Position = new Vector2(380, 580);
 
             this.Add(new SpriteGameObject("background"));
             this.Add(player);

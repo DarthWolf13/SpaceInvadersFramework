@@ -29,8 +29,8 @@ namespace SpaceInvadersFramework
             screen = new Point(800, 600);
             this.SetFullScreen(false);
 
-            gameStateManager.AddGameState("playingState", new PlayingState());
-            gameStateManager.SwitchTo("playingState");
+            gameStateManager.AddGameState("PlayingState", new PlayingState());
+            gameStateManager.SwitchTo("PlayingState");
         }
     }
 }
