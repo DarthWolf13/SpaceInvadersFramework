@@ -17,9 +17,9 @@ namespace SpaceInvadersFramework
         {
             //base.HandleInput(inputHelper);
 
-            if (inputHelper.IsKeyDown(Keys.Left))
+            if (inputHelper.IsKeyDown(Keys.Left) || this.position.X + this.sprite.Width > 800)
                 this.position.X -= 5;
-            if (inputHelper.IsKeyDown(Keys.Right))
+            if (inputHelper.IsKeyDown(Keys.Right) || this.position.X <0)
                 this.position.X += 5;
 
             
