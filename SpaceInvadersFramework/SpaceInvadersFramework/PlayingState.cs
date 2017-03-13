@@ -10,8 +10,9 @@ namespace SpaceInvadersFramework
     class PlayingState : GameObjectList
     {
         private GameObjectList invaders;
-        private GameObjectList bullet;
+        private GameObjectList bullets;
         Player player;
+        Score score;
 
         internal Player Player
         {
@@ -34,12 +35,15 @@ namespace SpaceInvadersFramework
             invaders = new GameObjectList();
             invaders.Position = new Vector2(0, 0);
 
-            bullet = new GameObjectList();
+            bullets = new GameObjectList();
+
+            score = new Score();
 
             this.Add(new SpriteGameObject("background"));           
             this.Add(invaders);
-            this.Add(bullet);
+            this.Add(bullets);
             this.Add(player);
+            this.Add(score);
 
             for (int i = 0; i < 9; i++)
             {
@@ -49,11 +53,31 @@ namespace SpaceInvadersFramework
             }
         }
             public override void HandleInput(InputHelper inputHelper)
-        {
+            {
             base.HandleInput(inputHelper);
 
             if (inputHelper.KeyPressed(Keys.Space))
-                this.bullet.Add(new Bullet(player.Position.X, player.Position.Y));
+                this.bullets.Add(new Bullet(player.Position.X, player.Position.Y));
+            }
+
+        public override void Update(GameTime gameTime)
+        {
+            base.Update(gameTime);
+
+            foreach (Invader invader in invaders.Objects)                
+            {
+                foreach (Bullet bullet in bullets.Objects)
+                {
+                    if (bullet.CollidesWith(invader)) {
+                        bullet.Visible = false;
+                        invader.Visible = false;
+                        score.ScoreValue += 10;
+                    }
+                }
+
+            }
+
+            
         }
     }
 }

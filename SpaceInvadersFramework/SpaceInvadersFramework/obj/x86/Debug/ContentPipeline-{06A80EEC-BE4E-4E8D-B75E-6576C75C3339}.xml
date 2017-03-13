@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2017-03-07T09:34:07.2054765+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>blue_invader.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\blue_invader.xnb</Output>
-      <Time>2017-03-07T09:34:07.2054765+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>bullet.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\bullet.xnb</Output>
-      <Time>2017-03-07T09:34:07.2054765+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>enemy_ship.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\enemy_ship.xnb</Output>
-      <Time>2017-03-07T09:34:07.2054765+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>green_invader.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\green_invader.xnb</Output>
-      <Time>2017-03-07T09:34:07.2261225+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>red_invader.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\red_invader.xnb</Output>
-      <Time>2017-03-07T09:34:07.2271273+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>scanlines.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\scanlines.xnb</Output>
-      <Time>2017-03-07T09:34:07.2271273+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>shield.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\shield.xnb</Output>
-      <Time>2017-03-07T09:34:07.2271273+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>ship.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\ship.xnb</Output>
-      <Time>2017-03-07T09:34:07.2271273+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>yellow_invader.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\yellow_invader.xnb</Output>
-      <Time>2017-03-07T09:34:07.2054765+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <Item>
       <Source>GameFont.spritefont</Source>
@@ -98,7 +98,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\GameFont.xnb</Output>
-      <Time>2017-03-07T09:34:07.2231158+01:00</Time>
+      <Time>2017-03-13T07:21:04+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -107,10 +107,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFrameworkContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\marti\documents\visual studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\marti\Documents\Visual Studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFrameworkContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\marti\Documents\Visual Studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\marti\Documents\Visual Studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\marti\Documents\Visual Studio 2015\Projects\SpaceInvadersFramework\SpaceInvadersFramework\SpaceInvadersFramework\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
